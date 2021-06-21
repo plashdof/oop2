@@ -1,4 +1,6 @@
 online ide
 msvs 2019
 
-ubuntu ws12
+ubuntu ws1
+
+git
