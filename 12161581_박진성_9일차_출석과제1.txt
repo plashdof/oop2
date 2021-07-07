@@ -1,0 +1,22 @@
+
+SetX, SetY 에만 바운더리 조건문이 있고
+생성자 에는 없었기 때문에
+
+생성자 에도 바운더리 조건문을 추가 해준다.
+
+Point::Point(int _x, int _y){
+
+	if (_x < 0)
+		x = 0;
+	else if (_x > 100)
+		x = 100;
+	else
+		x = _x;
+
+	if (_y < 0)
+		y = 0;
+	else if (_y > 100)
+		y = 100;
+	else
+		y = _y;
+}

@@ -1,0 +1,8 @@
+HTMLWriter hw();
+hw.SetContent("서리광선");
+hw.SetFont("굴림", 3, "red");
+hw.Write();
+
+
+
+
